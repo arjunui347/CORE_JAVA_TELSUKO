@@ -62,6 +62,7 @@ class Mobile {
     //change the name to static variable like Below.
     static String Name = "Phone";
 
+    //this is an Instance method, we have to create an object to call this method.
     public void show(){
         System.out.println(Brand + " : " + Price + " : " + Name);
     }
