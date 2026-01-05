@@ -1,4 +1,4 @@
-public class StaticVariable_37 {
+public class Tel_37_StaticVariable {
     /*
     Static variables in Java, also known as class variables,
     are declared using the static keyword within a class but outside of any method,

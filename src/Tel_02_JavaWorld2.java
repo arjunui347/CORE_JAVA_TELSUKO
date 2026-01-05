@@ -1,4 +1,4 @@
-class Tel_1_JavaWorld {
+class Tel_02_JavaWorld2 {
     public static void main(String[] args) {
 
         System.out.println("Welcome to java world");
