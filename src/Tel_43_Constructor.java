@@ -22,12 +22,12 @@ public class Tel_43_Constructor {
 */
     public static void main(String[] args) {
         Human myObj = new Human();
-        System.out.println("after Object Creation::::"+myObj.getAge()+"::::"+myObj.getName());
+        System.out.println("after Object Creation Updated with Constructor Default Values::::"+myObj.getAge()+"::::"+myObj.getName());
 
-        //myObj.setId(10329);
-        //myObj.setName("arjun"); // Set the value using the setter
-        //System.out.println(myObj.getName()); // Get and print the value using the getter
-        //System.out.println(myObj.getId());
+        myObj.setAge(35);
+        myObj.setName("arjun"); // Set the value using the setter
+
+        System.out.println("setting with new values ::::"+myObj.getAge()+"::::"+myObj.getName());
     }
 }
 
@@ -35,9 +35,11 @@ class Human{
     int age; // Instance variable
     String name; //Instance variable
 
-    //Constructor Creation
+    /*Constructor Creation / default Constructor Creation. */
     public Human() {
         System.out.println("Inside Of Constructor");
+        age=12;
+        name="arjun";
     }
 
     public String getName() {
